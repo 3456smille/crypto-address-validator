@@ -211,6 +211,10 @@ var CURRENCIES = [{
     name: 'nem',
     symbol: 'nem',
     validator: NEMValidator,
+},{
+    name: 'pepecoin',
+    symbol: 'pepe',
+    addressTypes: {prod: ['37', '55'], testnet: ['37', 'c4']}
 }];
 
 
